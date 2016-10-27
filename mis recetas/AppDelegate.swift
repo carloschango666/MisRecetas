@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+////////hola mundo
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UINavigationBar.appearance().barTintColor = UIColor(red: 240.0/255.0, green: 113.0/255, blue: 115.0/255.0, alpha: 1.0)
         
         //color de la letra de la barra de navegacion
-         UINavigationBar.appearance().tintColor = UIColor.white
+         UINavigationBar.appearance().tintColor = UIColor.black
         
         //
         if  let barFont = UIFont(name : "Avenir-Light", size: 25.0){
